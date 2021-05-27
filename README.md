@@ -9,10 +9,15 @@ cd tider-clone
 npm install
 
 open new terminal 
+
 cd tnder-backend
+
 npm install
+
 now we need to set entry point of server.js in backend's package.json
+
 under package.json, under "main" add "type":"module" and under "test" add "start":"node server.js"
+
 open postman (interact with servers backend stuff) in local to check our API if they are working correctly - get new "+" tab, and type the http://localhost:8001/ and http://localhost:8001/tinder/cards - post http://localhost:8001/tinder/cards -> body -> raw -> JSON - add below:
 
     [
