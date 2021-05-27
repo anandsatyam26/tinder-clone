@@ -1,8 +1,13 @@
 "# tinder-clone" 
+
 npx create-react-app tinder-clone
+
 del 'App.test.js', 'logo.svg', 'setupTests.js'
+
 cd tider-clone
-npm instal
+
+npm install
+
 open new terminal 
 cd tnder-backend
 npm install
